@@ -1,0 +1,151 @@
+.row{
+    width: 100%;
+    height: 100vh;
+}
+
+.demo {
+    background-color: #E5E5E5;
+}
+.heading{
+    font-family: 'Pacifico', cursive;
+}
+.form-horizontal {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: limegreen;
+    padding: 15px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -5px #555;
+    overflow: hidden;
+}
+
+.form-horizontal .heading {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.form-horizontal .form-group {
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-horizontal .form-control {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    height: 55px;
+    padding: 10px 8px 10px 15px;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+
+.form-horizontal .form-control:focus {
+    box-shadow: none;
+}
+
+.form-horizontal .btn {
+    color: #fff;
+    background-color: gold;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #555;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto -20px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.form-horizontal .btn:focus,
+.form-horizontal .btn:hover {
+    color: limegreen;
+    text-shadow: none;
+}
+
+.form-horizontal .btn:after {
+    content: '';
+    background-color: #fff;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    transform: scale(0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.form-horizontal .btn:hover:after {
+    transform: scale(1);
+}
+
+.form-horizontal .form-footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+form-horizontal .form-footer span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-horizontal .social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.form-horizontal .social li {
+    display: inline-block;
+    margin: 0 6px 10px;
+}
+
+.form-horizontal .social li a {
+    color: deepskyblue;
+    font-size: 16px;
+    line-height: 30px;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid deepskyblue;
+    display: block;
+    transition: all 0.5s;
+}
+
+.form-horizontal .social li a.facebook {
+    color: #3f51b5;
+    border-color: #3f51b5;
+}
+
+.form-horizontal .social li a.facebook:hover {
+    color: #fff;
+    background-color: #3f51b5;
+}
+
+.form-horizontal .social li a.twitter:hover {
+    color: #fff;
+    background-color: deepskyblue;
+}
+
+.form-horizontal .social li a i {
+    margin: 0 7px 0 0;
+}

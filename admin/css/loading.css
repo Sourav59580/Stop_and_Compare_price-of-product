@@ -1,0 +1,11 @@
+.loading{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(250, 247, 247);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: rgb(33, 194, 33);
+}
